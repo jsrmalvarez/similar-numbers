@@ -25,16 +25,16 @@ class SimilarNumbers
                 array_push($similars, 8, 9, 6);
                 break;
             case 1:
-                array_push($similars, 7, 4);
+                array_push($similars, 7, 4, 9);
                 break;
             case 2:
-                array_push($similars, 5, 3, 7);
+                array_push($similars, 5, 3, 7, 9);
                 break;
             case 3:
-                array_push($similars, 8, 9, 2);
+                array_push($similars, 8, 9, 2, 5, 7);
                 break;
             case 4:
-                array_push($similars, 7, 1);
+                array_push($similars, 7, 1, 9);
                 break;
             case 5:
                 array_push($similars, 2, 3, 7, 6);
@@ -49,7 +49,7 @@ class SimilarNumbers
                 array_push($similars, 0, 9, 6, 3, 2);
                 break;
             case 9:
-                array_push($similars, 8, 0, 6, 3, 2);
+                array_push($similars, 8, 0, 6, 3, 2, 1, 4);
                 break;
 
         }
